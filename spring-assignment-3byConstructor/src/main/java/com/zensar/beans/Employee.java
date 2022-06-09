@@ -13,12 +13,8 @@ public class Employee {
 		super();
 	}
 	
-	
-	public Employee(int employeeId, String employeeName, int employeeAge, Department department) {
+		public Employee(Department department) {
 		super();
-		EmployeeId = employeeId;
-		EmployeeName = employeeName;
-		EmployeeAge = employeeAge;
 		this.department = department;
 	}
 
